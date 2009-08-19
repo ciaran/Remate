@@ -1,0 +1,43 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            ACTIONS = {refreshProjects = id; }; 
+            CLASS = NSButton; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = NSControl; 
+        }, 
+        {
+            ACTIONS = {saveAndClose = id; }; 
+            CLASS = NSWindowController; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = NSResponder; 
+        }, 
+        {
+            CLASS = OakMenuButton; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {delegate = id; }; 
+            SUPERCLASS = NSButton; 
+        }, 
+        {
+            CLASS = OakProjectController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {fileChooser = id; statusBar = id; tabBarView = id; textView = id; }; 
+            SUPERCLASS = NSWindowController; 
+        }, 
+        {
+            CLASS = ReMate; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {configureMenuItem = id; }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            ACTIONS = {saveAndClose = id; }; 
+            CLASS = ReMatePreferencesController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {tableView = NSTableView; }; 
+            SUPERCLASS = NSWindowController; 
+        }
+    ); 
+    IBVersion = 1; 
+}
